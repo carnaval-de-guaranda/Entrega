@@ -32,7 +32,7 @@ _-Etimología:_ Existen diferentes versiones del origen de la palabra carnaval, 
 ## **TEMÁTICA DEL GRUPO: Carnaval de Guaranda** 
 
 ###### ¿Cuándo y dónde se realiza?
-El festival tiene su recepción en Ecuador, en la ciudad de Guaranda, la cual es la capital de la Provincia de Bolívar y la urbe más grande y poblada de la misma. El festival se realiza entre febrero y marzo, dependiendo del calendario o programación de éste. 
+El festival tiene su recepción en Ecuador, en la ciudad de Guaranda, la cual es la capital de la Provincia de Bolívar y la urbe más grande y poblada de la misma. El festival se realiza entre febrero y marzo, dependiendo del calendario o programación de éste. Los preparativos durán más de 6 meses, pero las festividades del carnaval tienen una duración de 4 días y son siempre justo antes del miércoles de cenizas. 
 
 ###### **Historia**
 Es una historia entre mitos y realidad; el Carnaval de Guaranda es parte de la celebreción del Carnaval Ecuador. Conforme la historia de leyenda, el Carnaval de Guaranda se remonta a la temporada de los Mitimaes, un conjunto inca procedente del Perú. Carna y Valerio, una joven pareja casada por el jefe Huaranga, salieron a pasear por las montañas. 
