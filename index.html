@@ -182,19 +182,19 @@
                     min-height: 170px;
                 }
                 .timeline > li .timeline-panel {
-                    padding: 0 20px 20px 100px;
+                    padding: 0 80px 20px 100px;
                 }
                 .timeline > li .timeline-image {
-                    width: 220px;
-                    height: 220px;
-                    margin-left: -110px;
+                    width: 300px;
+                    height: 300px;
+                    margin-left: -150px;
                 }
                 .timeline > li .timeline-image h4,
                 .timeline > li .timeline-image .h4 {
                     margin-top: 40px;
                 }
                 .timeline > li.timeline-inverted > .timeline-panel {
-                    padding: 0 100px 20px 20px;
+                    padding: 0 100px 20px 100px;
                 }
             }
             .carousel-control-prev-icon {
@@ -216,7 +216,7 @@
                         <h2 class="fs-3">¡Una de las mayores fiestas del Ecuador!</h2>
                         <h3 class="fs-5"> ¿De qué trata? ¿De qué se compone?</h3>
                         <p class="lead my-4" align= justify>
-                          En Ecuador, dentro de la provincia de Bolívar, en la <b>ciudad de Guaranda</b>, se realiza el colorido y ruidoso Carnaval de Guaranda. La celebración cultural se encarga de reunir a las familias y turistas durante los días 18 y 20 de febrero . El carnaval se destaca internacionalmente por la variedad de comidas típicas y coloridos bailes, además del culto a la religión y a la cultura andina.
+                          En Ecuador, dentro de la provincia de Bolívar, en la <b>ciudad de Guaranda</b>, se realiza el colorido y ruidoso Carnaval de Guaranda. La celebración cultural se encarga de reunir a las familias y turistas durante el mes de febrero. El carnaval se destaca internacionalmente por la gran variedad de comidas típicas y bailes llenos de color, además del culto a la religión y a la cultura andina.
                         </p>
                     </div>
                 </div>
@@ -313,11 +313,57 @@
                 </div>
             </section>
 
-            <section class="container-fluid g-0">
-                <div class="row g-0">
-                    <div class="col-12 text-center">
-                        <h3 class="mt-5 mb-3">Trayecto</h3>
-                        <img src="img/recorrido.svg" class="w-100" />
+            <section class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <h3 class="my-5 text-center">Personajes</h3>
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/taita.png" class="w-100" />
+                                    <div class="carousel-caption d-none d-md-block text-black-50">
+                                        <h5>El Taita</h5>
+                                        <p> Conocido como el "Gran Taita", es quien encabeza los desfiles y baila al compás de la música del pueblo mientras que saborea el legendario y tradicional licor pájaro azul.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/taita.png" class="w-100" />
+                                    <div class="carousel-caption d-none d-md-block text-black-50">
+                                        <h5>Huasi Tupac</h5>
+                                        <p>El alma del Carnaval; están encargados de recibir a los carnavaleros con hermandad y cortesía. Hacen preguntas al público por medio de canciones que, de ser contestadas correctamente, son recompensadas con comida típica.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/taita.png" class="w-100" />
+                                    <div class="carousel-caption d-none d-md-block text-black-50">
+                                        <h5>La Reina</h5>
+                                        <p> Es elegida comunitariamente, debe representar la unión, la feminidad y ser un modelo a seguir de la comunidad. </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/carishina.png" class="w-100" />
+                                    <div class="carousel-caption d-none d-md-block text-black-50" >
+                                        <h5>Carishina</h5>
+                                        <p> Es un hombre que se viste de mujer, que va al frente en los carros alegóricos y estos son decorados con flores y paja, así como también encabeza las comparsas. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -335,7 +381,7 @@
                                 <div class="text-md-start p-4">
                                     <h5 style="color:grey;"> El primer día</h5>
                                     <h4>EL CARNAVAL</h4>
-                                    <p class="text-black-50">
+                                    <p class="lead my-6">
                                         Desfilan coloridas comparsas de diversas comunidades campesinas e invitados de otras provincias. Participan los carros alegóricos, bandas de pueblo, grupos folclóricos, escuelas, la Reina de Guaranda y, por supuesto, el Taita.
                                     </p>
                                 </div>
@@ -344,13 +390,13 @@
                         <!--par-->
                         <div class="row align-items-center my-3">
                             <div class="col-md-6 order-sm-2">
-                                <img src="img/dia1.png" class="w-100" />
+                                <img src="img/dia2.png" class="w-100" />
                             </div>
-                            <div class="col-md-6 order-sm-1">
-                                <div class="text-md-end">
+                            <div class="col-md-6">
+                                <div class="text-md-end p-4">
                                     <h5 style="color:grey;"> El segundo día</h5>
                                     <h4>CELEBRACIÓN AL ARTE</h4>
-                                    <p class="text-black-50">
+                                    <p class="lead my-6">
                                       La música, la poesía y el arte se exponen y se presentan. Un día lleno de cultura e intercambios artísticos.
                                     </p>
                                 </div>
@@ -359,13 +405,13 @@
                         <!--impar-->
                         <div class="row align-items-center my-3">
                             <div class="col-md-6">
-                                <img src="img/dia1.png" class="w-100" />
+                                <img src="img/dia3.png" class="w-100" />
                             </div>
                             <div class="col-md-6">
-                                <div class="text-md-start">
+                                <div class="text-md-start p-4">
                                     <h5 style="color:grey;"> El tercer día</h5>
                                     <h4>FERIA GASTRONÓMICA</h4>
-                                    <p class="text-black-50">
+                                    <p class="lead my-6">
                                       La comida se celebra, ofreciendo platos tradicionales, ollas comunes y bebidas típicas (con y sin alcohol). Todas las casas abren sus puertas para obsequiar platos preparados con los elementos clásicos como ave, maíz, tamales.
                                     </p>
                                 </div>
@@ -389,17 +435,17 @@
                         </img>
                         <h3></h3>
                         <h4 align=center>COMIDA</h4>
-                        <p class="text-black-50" align= justify>
+                        <p class="lead my-6" align= justify>
                           Abunda la presencia del maíz en todas sus formas, al igual que el ceviche, el chancho y el mote.
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-3">
-                        <svg class="rounded-circle img-fluid" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                        <img src="img/musica.gif" class="rounded-circle img-fluid" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" focusable="false">
                             <rect width="100%" height="100%" fill="#ccc" />
-                        </svg>
+                        </img>
                         <h3></h3>
                         <h4 align=center>MÚSICA Y DANZAS</h4>
-                        <p class="text-black-50" align= justify>
+                        <p class="lead my-6" align= justify>
                           Es una fiesta animada por comparsas, pregones, contrapuntos y bailes públicos que forman parte de la cultura carnavalesca.
                         </p>
                     </div>
@@ -409,17 +455,17 @@
                         </img>
                         <h3></h3>
                         <h4 align=center>ELEMENTOS</h4>
-                        <p class="text-black-50" align= justify>
+                        <p class="lead my-6" align= justify>
                           Se juega con serpentinas, lociones, flores. Esta mixtura de elementos, junto al talco, los polvos y el agua principian a verificar una original transformación en los rostros de los participantes.
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-3">
-                        <img src="img/religion.gif" class="rounded-circle img-fluid" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                        <img src="img/religion.GIF" class="rounded-circle img-fluid" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" focusable="false">
                             <rect width="100%" height="100%" fill="#ccc" />
                         </img>
                         <h3></h3>
                         <h4 align=center>RELIGIÓN</h4>
-                        <p class="text-black-50" align= justify>
+                        <p class="lead my-6" align= justify>
                           Por la calendarización, el Carnaval está ligado a la Iglesia Católica, aunque posee una mezcla entre aquella y la tradición indígena: el mito del eterno retorno, es cumplir con el ciclo vital, que año tras año se lo vuelve a vivir.
                         </p>
                     </div>
@@ -440,28 +486,28 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/taita3.png" class="w-100" />
+                                    <img src="img/taita.png" class="w-100" />
                                     <div class="carousel-caption d-none d-md-block text-black-50">
                                         <h5>El Taita</h5>
                                         <p> Conocido como el "Gran Taita", es quien encabeza los desfiles y baila al compás de la música del pueblo mientras que saborea el legendario y tradicional licor pájaro azul.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/taita2.png" class="w-100" />
+                                    <img src="img/taita.png" class="w-100" />
                                     <div class="carousel-caption d-none d-md-block text-black-50">
                                         <h5>Huasi Tupac</h5>
                                         <p>El alma del Carnaval; están encargados de recibir a los carnavaleros con hermandad y cortesía. Hacen preguntas al público por medio de canciones que, de ser contestadas correctamente, son recompensadas con comida típica.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/taita2.png" class="w-100" />
+                                    <img src="img/taita.png" class="w-100" />
                                     <div class="carousel-caption d-none d-md-block text-black-50">
                                         <h5>La Reina</h5>
                                         <p> Es elegida comunitariamente, debe representar la unión, la feminidad y ser un modelo a seguir de la comunidad. </p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/taita2.png" class="w-100" />
+                                    <img src="img/carishina.png" class="w-100" />
                                     <div class="carousel-caption d-none d-md-block text-black-50" >
                                         <h5>Carishina</h5>
                                         <p> Es un hombre que se viste de mujer, que va al frente en los carros alegóricos y estos son decorados con flores y paja, así como también encabeza las comparsas. </p>
@@ -484,10 +530,8 @@
             <section class="container-fluid g-0">
                 <div class="row g-0">
                     <div class="col-12 text-center">
-                        <h3 class="mt-5 mb-3">Carros Alegóricos</h3>
-                        <svg class="w-100" viewBox="0 0 40 100" xmlns="http://www.w3.org/2000/svg" focusable="false">
-                            <rect width="100%" height="100%" fill="#ccc" />
-                        </svg>
+                        <h3 class="mt-5 mb-3">Trayecto</h3>
+                        <img src="img/recorrido.svg" class="w-100" />
                     </div>
                 </div>
             </section>
